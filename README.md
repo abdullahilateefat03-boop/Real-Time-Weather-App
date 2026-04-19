@@ -29,12 +29,12 @@ A modern weather application built with **React + Vite** that provides real-time
 ## 🖼 App Preview
 
 ### Home Screen
-<img src="/home.png" width="600" />
+<img src="./public/home.png" width="600" />
 
 ---
 
 ### Weather Details
-<img src="/details.png" width="600" />
+<img src="./public/details.png" width="600" />
 
 ---
 
