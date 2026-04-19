@@ -10,7 +10,7 @@ A modern weather application built with **React + Vite** that provides real-time
 
 ## 🚀 Live Demo
 
-👉 https://your-vercel-or-netlify-link.com
+👉 https://real-time-weather-app-tawny.vercel.app/
 
 ---
 
