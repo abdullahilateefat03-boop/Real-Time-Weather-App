@@ -1,16 +1,57 @@
-# React + Vite
+# 🌤 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![OpenWeather](https://img.shields.io/badge/OpenWeather-FFA500?style=for-the-badge&logo=cloud&logoColor=white)
 
-Currently, two official plugins are available:
+A modern weather application built with **React + Vite** that provides real-time weather updates for any city using the OpenWeather API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://your-vercel-or-netlify-link.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔍 Search weather by city name
+- 🌡 Real-time temperature (°C)
+- 🌦 Weather condition display
+- ⚡ Fast Vite performance
+- ⏳ Loading state
+- ❌ Error handling for invalid cities
+- 📱 Fully responsive design
+
+---
+
+## 🖼 App Preview
+
+### Home Screen
+<img src="/home.png" width="600" />
+
+---
+
+### Weather Details
+<img src="/details.png" width="600" />
+
+---
+
+## 🛠 Tech Stack
+
+- React (useState Hooks)
+- Vite
+- CSS
+- OpenWeather API
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root:
+
+```env id="x1v8kq"
+VITE_WEATHER_API_KEY=your_api_key_here
+
+
